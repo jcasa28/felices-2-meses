@@ -319,3 +319,76 @@ footer {
   font-size: 9px;
   text-align: center;
 }
+/* ==========================================
+   CARTITA DESPLEGABLE
+========================================== */
+
+.love-letter {
+  max-width: 650px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.dropdown {
+  margin-top: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #ffb6c1;
+}
+
+/* Botón del dropdown */
+.dropdown summary {
+  padding: 18px;
+  background: #ffdde5;
+  color: #a83260;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  transition: background 0.3s ease;
+}
+
+.dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown summary:hover {
+  background: #ffc2d1;
+}
+
+/* Contenido desplegable */
+.dropdown-content {
+  padding: 25px;
+  background: #fff5f8;
+  color: #73334d;
+  line-height: 1.8;
+  animation: fadeIn 0.4s ease;
+}
+
+.dropdown-content p {
+  margin-bottom: 15px;
+}
+
+/* Imagen dentro de la carta */
+.letter-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cuchi {
+  font-size: 6px;
+}
