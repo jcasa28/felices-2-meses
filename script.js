@@ -43,9 +43,11 @@ const CONFIG = {
   movies: [
     "🎤🎶 High School Musical",
     "🍿 Ricky Stanicky",
-    "😵‍💫 Obsesion",
+    "👹 Obsession",
     " 🛬❄️ La sociedad de la nieve",
     "🕷️ Spiderman",
+    "💀 Freaky Friday 2",
+    "🎶 Otro ep de Luis Miguel",
   ],
   bonuses: [
     "💋 10 besitos extra",
