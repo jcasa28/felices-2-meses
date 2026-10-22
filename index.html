@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felices 2 meses 💗</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="hearts" aria-hidden="true">♥ ✦ ♥ ✧ ♥</div>
+
+    <main class="wrap">
+      <!-- ====================================== -->
+      <!-- PÁGINA PRINCIPAL -->
+      <!-- ====================================== -->
+
+      <header class="hero card">
+        <span class="badge">EDICIÓN ESPECIAL · 2 MESES</span>
+
+        <h1>
+          Felices 2 meses,<br />
+          <em>mi amooor</em> 💖
+        </h1>
+
+        <p>
+          Dos meses aguantando mis chistes malos. Te merecei un premio nawebona.
+        </p>
+
+        <img class="hero-img" src="images/nosotros.jpeg" alt="Nosotros" />
+
+        <h2>Pregunta muy importante...</h2>
+
+        <div class="choice">
+          <button id="yes" class="primary">A. Seguir conmigo 💘</button>
+
+          <button id="no" class="secondary">B. Terminarme 😒</button>
+        </div>
+
+        <p>Terminame pa que veai</p>
+
+        <p id="response" class="response" aria-live="polite"></p>
+      </header>
+
+      <!-- ====================================== -->
+      <!-- EXPERIENCIA -->
+      <!-- ====================================== -->
+
+      <section id="experience" class="hidden">
+        <!-- ================================== -->
+        <!-- NUESTRAS 10 CANCIONES -->
+        <!-- ================================== -->
+
+        <div class="card songs-section">
+          <span class="eyebrow"> NUESTRA BANDA SONORA </span>
+
+          <h2>🎶 Nuestro top 10</h2>
+
+          <p>Las canciones de nosotro</p>
+
+          <div id="songs" class="songs"></div>
+        </div>
+
+        <!-- ================================== -->
+        <!-- CONTENEDOR DE TRES COLUMNAS -->
+        <!-- ================================== -->
+
+        <div class="three-columns">
+          <!-- COLUMNA 1: PRÓXIMA CITA -->
+          <div class="card col1">
+            <span class="eyebrow"> EL DESTINO DECIDE </span>
+
+            <h2>🎰 Nuestra próxima cita</h2>
+
+            <div class="slot" id="dateSlot">💌 ¿Qué haremos?</div>
+
+            <button class="primary spin" id="dateSpin">🎲 Elegir plan</button>
+          </div>
+
+          <!-- COLUMNA 2: PELÍCULAS -->
+          <div class="card col2">
+            <span class="eyebrow"> NOCHE DE PELIS </span>
+
+            <h2>🍿 ¿Qué película vemos?</h2>
+
+            <p>Esta es pa vela en la casa, pero tenemos que ir pal cine.</p>
+
+            <div class="slot" id="movieSlot">🎬 Nuestra película sorpresa</div>
+
+            <button class="primary spin" id="movieSpin">
+              🎲 Elegir película
+            </button>
+          </div>
+
+          <!-- COLUMNA 3: RESTAURANTES -->
+          <div class="card col3">
+            <span class="eyebrow"> HORA DE COMER </span>
+
+            <h2>🍝 ¿Dónde comemos?</h2>
+
+            <p>Que tenga proteina y sea bueno pa los gains.</p>
+
+            <div id="foodSection" class="subslot">
+              <div class="slot" id="foodSlot">
+                🍽️ Nuestro restaurante sorpresa
+              </div>
+
+              <button class="secondary spin" id="foodSpin">
+                🎲 Elegir restaurante
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- FIN DE LAS TRES COLUMNAS -->
+
+        <!-- ================================== -->
+        <!-- BONUS ROMÁNTICO -->
+        <!-- ================================== -->
+
+        <div class="card">
+          <span class="eyebrow"> BONUS ROMÁNTICO </span>
+
+          <h2>💌 Un pequeño extra</h2>
+
+          <p>La máquina también decide nuestro reto cursi.</p>
+
+          <div class="slot" id="bonusSlot">✨ ¿Qué nos toca?</div>
+
+          <button class="secondary spin" id="bonusSpin">
+            🎲 Elegir sorpresa
+          </button>
+        </div>
+
+        <!-- ================================== -->
+        <!-- RESUMEN FINAL -->
+        <!-- ================================== -->
+
+        <div class="card finale">
+          <span class="eyebrow"> RESERVA CONFIRMADA (POR CUPIDO) </span>
+
+          <h2>💖 Nuestro plan oficial</h2>
+
+          <div id="summary" class="summary">
+            Gira las máquinas para descubrir nuestro plan.
+          </div>
+
+          <button id="copy" class="primary">📋 Copiar nuestro plan</button>
+
+          <button id="reset" class="text-button">
+            ↻ Volver a sortear todo
+          </button>
+
+          <p class="love">
+            Gracias por estos dos meses. Lo mejor apenas empieza. ♡
+          </p>
+
+          <img
+            class="ending-img"
+            src="images/gym.jpeg"
+            alt="Nuestro recuerdo"
+          />
+        </div>
+      </section>
+
+      <!-- ====================================== -->
+      <!-- FOOTER -->
+      <!-- ====================================== -->
+
+      <footer>
+        Hecho con amor, JavaScript y un poquito de manipulación emocional 💗
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
