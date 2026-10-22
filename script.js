@@ -32,10 +32,13 @@ const CONFIG = {
     "🍣 Tokyo House",
     "🍝 North Italia",
     "🌮 Tacos de downtown Denton",
+    "🌮 Mesero",
+    "🌶️ Chili's",
     "🍔 Whataburguer",
     "🍔 In N' Out",
     "🥩 Texas Roadhouse",
     "🍲 CAVA",
+    "🍱 POKE",
   ],
   movies: [
     "🎤🎶 High School Musical",
